@@ -1,5 +1,6 @@
 .mdl-layout__header{
     background: rgb(36, 32, 77);
+    box-shadow: 1px 5px 7px rgb(14, 12, 33);;
 }
 .title-header{
     margin: 0px;
