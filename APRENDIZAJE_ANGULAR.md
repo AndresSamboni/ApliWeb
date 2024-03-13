@@ -20,4 +20,4 @@
 > Para crear un componente en Angular 17, es necesario ejecutar el comando ***ng generate component RUTA_COMPONENTES***, generalmente para mantener una buena estructura de código se utiliza la ruta ***components/NOMBRE_COMPONENTE***. A diferencia de los servicios, los componentes añaden también los elementos **.html** y **.css** para manejar la presentación del mismo.
 
 > [!IMPORTANT]
-> Para utilizar los nuevos componentes, es necesario importarlo dentro del componente principal (Donde se va a utilizar), la importación se realiza dentro del metadato **imports** que tiene el decorador **@Component**.
+> Para utilizar los nuevos componentes, es necesario importarlo dentro del componente principal (Donde se va a utilizar), la importación se realiza dentro del metadato **imports** que tiene el decorador **@Component**. Adicionalmente, dado que se utiliza la librería ***HttpClient***, entonces es necesario registrar este proveedor dentro del archivo *app.config.ts* en el arreglo **providers**.
